@@ -4,7 +4,10 @@ import org.apache.camel.RoutesBuilder;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
+// import org.springframework.context.annotation.Configuration;
 
+
+// @Configuration
 @Component
 public class MyCamelConfiguration {
 
