@@ -18,7 +18,7 @@ public class MyCamelConfiguration {
             @Override
             public void configure() throws Exception {
             from("file:/C:/Users/windowuser/Desktop/ksg/blog/Spring%20Boot%20-%20Using%20annotations%20for%20Apache%20Camel/shared/in?move=./processed")
-                    .to("file:/C:/windowuser/sang018/Desktop/ksg/blog/Spring%20Boot%20-%20Using%20annotations%20for%20Apache%20Camel/shared/out");
+                    .to("file:/C:/Users/windowuser/Desktop/ksg/blog/Spring%20Boot%20-%20Using%20annotations%20for%20Apache%20Camel/shared/out");
             }
         };
     }
